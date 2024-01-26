@@ -110,3 +110,43 @@
   margin-top: 5px;
   width: 150px;
 }
+.quote {
+  background-color: #e5e7eb;
+  padding: 100px var(--side-space);
+}
+.quote-content {
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+  font-weight: 300;
+}
+.quote-author {
+  text-align: right;
+  font-weight: 600;
+  color: var(--dark-blue);
+}
+.cta-wrapper {
+  background-color: #3882f6;
+  margin: 50px var(--side-space);
+  border-radius: 5px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  color: #f9faf8;
+}
+.cta-button {
+  background-color: transparent;
+  border: 2px solid #f9faf8;
+  border-radius: 5px;
+  color: #f9faf8;
+  padding: 0px 20px;
+  cursor: pointer;
+}
+.footer {
+  background-color: var(--dark-blue);
+  color: #f9faf8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-block: 15px;
+}
